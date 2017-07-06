@@ -1,0 +1,225 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #44545E;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+nav {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	padding: 20px 0px 20px 0px;
+}
+
+nav a {
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #7B98AA;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+#Archive {
+	padding-top: 120px;
+	padding-bottom: 35px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+article p {
+	text-transform: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 60px;
+}
+
+.About p {
+	text-transform: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+article a {
+	text-decoration: none;
+	color: #44545E;
+	border: 2px solid #44545E;
+	padding: 9px 30px 9px 30px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+article h3 {
+	padding-bottom: 30px;
+}
+
+.About h3 {
+	padding-bottom: 30px;
+}
+
+#Twenty {
+	padding-top: 60px;
+}
+
+#Visual {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.Archive {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 120px;
+}
+
+.About {
+	background-color: #C8F0F4;
+	padding: 100px 200px 100px 200px;
+}
+
+.Current {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	background-image: url('../images/home_header_bg.jpg');
+	height: 100vh;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+}
+
+header h1 {
+	padding-top: 325px;
+	letter-spacing: 13px;
+	font-size: 37px;
+	font-weight: 600;
+}
+
+header h2 {
+	font-size: 23px;
+	font-weight: 600;
+}
+
+a:hover {
+	color: black;
+	transition: 2s;
+}
+
+/*.Current section img {
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+		width: auto;
+		height: auto;
+}
+
+/*.Current section img:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+		 overflow: hidden;
+}*/*/
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+	background-color: #C8F0F4;
+}
+
+footer p a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	border: 2px solid #44545E;
+	padding: 5px 30px 5px 30px;
+	margin: 5px 30px 5px 30px;
+}
+
+.Social {
+	text-decoration: none;
+	text-align: center;
+	margin: 5px 5px 5px 5px;
+	color: #44545E;
+}
+
+hr {
+	border: 1px solid #44545E;
+
+}
+footer i {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+footer input {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 40px 5px 40px;
+	border: none;
+}
+
+footer p {
+	text-transform: capitalize;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	padding-bottom: 15px;
+}
